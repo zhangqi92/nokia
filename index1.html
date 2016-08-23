@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="renderer" content="webkit">
+<meta name="baidu-site-verification" content="Ah3qFCUyHG" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>懂你科技</title>
+
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/homepage.css">
+<link rel="stylesheet" type="text/css" href="css/index1.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</head>
+<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+
+<div class="container">
+  <div class="row">
+  	<div class="content">
+		<div class="section1 col-lg-12 col-md-12 col-xs-12 col-sm-12  " id="section1">
+		<div class="main-page">
+			<!-- 主页 -->
+			<img class="section1-logo" src="img/page1/Animate2.2.gif"/>
+			<img class="section1-title" src="img/page1/pic1.png"/>
+			<p class="section1-des">下一代人工智能核心,未来交互系统雏形</p>
+			<div class="section1-group col-lg-4 col-lg-offset-4 col-md-4  col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+				<div class="input-group input-group-lg">
+					<input type="text" class="form-control" placeholder="小懂，让您更懂自己……">
+						<span class="input-group-btn">
+							<button class="send btn btn-blue " type="button">
+								发送
+							</button>
+						</span>
+				</div><!-- /input-group -->
+		   </div><!-- /.col-lg-6 -->					
+		</div>
+		<div class="chat-page">
+			<div class ="panel panel-default chatbox" ng-app="myApp" ng-controller="first">
+			<div class="panel-heading box-header">
+			<b class="panel-title pull-left">懂你科技</b>
+				<button type="submit" class="btn btn-default pull-right closechat"><span class="closebtn" aria-hidden="true">&times</span></button>
+		</div>
+
+		<div class ="panel-body" >
+			<div class="chat-body">
+
+			<div class="content-reply-box row" ng-repeat="i in input">
+				<div class="col-xs-12 {{i.position}}">
+					<span class=" btn {{i.bgColor}} btn-space">{{i.message}}</span>
+					<span class="{{i.arrow}}">&nbsp;</span>
+				</div>
+			</div>
+
+			</div>
+		</div>
+			<div class="panel-footer col-xs-12 user-input">
+				<div class="input-group">
+					<input type="textarea" id="searchwords" class="form-control" value="test" ng-model="inputMsg" ng-keyup="myKeyup($event)" data-provide="typeahead" data-source='["公司简介","公司都有什么项目","公司电话和地址在哪里呢"]'/>
+					<span class="input-group-addon btn-blue" ng-click="addInput(inputMsg)">发送</span>
+
+				</div>
+			</div>
+	</div>
+		</div>
+
+		</div><!--section1-->
+		  
+		 <div class="section2 col-lg-12 col-md-12 col-xs-12 col-sm-12  " id="section2"> 
+			<img class="section2-title" src="img/page2/pic1.png"/>	
+			<p class="section2-des">
+				懂你信息科技有限公司结合中外技术团队，致力于人机交互，是一家主要以人工智能算法为核心技术输出型公司。<br/>
+				我们通过不断更新现今算法和人性化的系统，使企业更方便的使用逼真个性化机器人客服及其它人工智能产品。
+			</p>
+			<img class="section2-logo" src="img/page2/pic2.png"/>
+			<div class="section2-tol  ">
+				<div class="section2-li col-lg-4  col-md-6 col-xs-12 col-sm-12 ">
+                	<div class="section2-li1">
+                        <img class="section2-li1-img" src="img/page2/pic4.png"/>
+                        <p class="section2-li-des">模块化</p>
+                    </div>
+				</div>
+				<div class="section2-li col-lg-4 col-md-6 col-xs-12 col-sm-12 ">
+                	<div class="section2-li2">
+                        <img class="section2-li1-img" src="img/page2/pic6.png"/>
+                        <p class="section2-li-des">情感化</p>
+                     </div>
+                </div>
+				<div class="section2-li col-lg-4 col-md-6 col-xs-12 col-sm-12 ">
+                	<div class="section2-li3">
+                        <img class="section2-li1-img" src="img/page2/pic8.png"/>
+                        <p class="section2-li-des">个性化</p>
+                    </div>
+                </div>
+			</div>
+		</div><!--section2-->
+		
+		  <div id="section3" class="section3">         
+			<div class="section3-top">
+            	<img class="section3-top-img img-responsive" src="img/page3/pic1.png"/>
+                <p class="section3-des">
+                    懂你信息科技有限公司结合中外技术团队，致力于人机交互，是一家主要以人工智能算法为核心技术输出型公司。<br/>
+                    我们通过不断更新现今算法和人性化的系统，使企业更方便的使用逼真个性化机器人客服及其它人工智能产品。
+				</p>
+                <img class="section3-logo" src="img/page3/pic2.png"/>
+            </div>
+            <div class="section3-bottom">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12" >
+                     <div class="pagethree-bottom-li">
+                         <img class="pagethree-bottom-img" src="img/page3/pic4.png"/>
+                         <p class="pagethree-bottom-title">大数据处理</p>
+                         <div class="pagethree-bottom-line"></div>
+                         <p class="pagethree-bottom-des">
+                         	机器人提供24小时自动应答服务，帮助客户解决80%的常见问题，客户与人工客服对话时，一个真正的机器人成为工作人员的智能小秘书
+                         </p>
+                      </div>
+                  </div>
+                        
+                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="pagethree-bottom-li">
+                        <img class="pagethree-bottom-img" src="img/page3/pic5.png"/>
+                        <p class="pagethree-bottom-title">智能客服</p>
+                        <div class="pagethree-bottom-line"></div>
+                        <p class="pagethree-bottom-des">机器人提供24小时自动应答服务，帮助客户解决80%的常见问题，客户与人工客服对话时，一个真正的机器人成为工作人员的智能小秘书</p>
+                    </div>
+                </div>
+                        
+                <div class=" col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="pagethree-bottom-li">
+                        <img class="pagethree-bottom-img" src="img/page3/pic6.png"/>
+                        <p class="pagethree-bottom-title">语义分析</p>
+                        <div class="pagethree-bottom-line"></div>
+                        <p class="pagethree-bottom-des">机器人提供24小时自动应答服务，帮助客户解决80%的常见问题，客户与人工客服对话时，一个真正的机器人成为工作人员的智能小秘书</p>
+                    </div>
+                </div>
+                        
+                <div class=" col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="pagethree-bottom-li">
+                        <img class="pagethree-bottom-img" src="img/page3/pic7.png"/>
+                        <p class="pagethree-bottom-title">文本数据挖掘</p>
+                        <div class="pagethree-bottom-line"></div>
+                        <p class="pagethree-bottom-des">机器人提供24小时自动应答服务，帮助客户解决80%的常见问题，客户与人工客服对话时，一个真正的机器人成为工作人员的智能小秘书</p>
+                    </div>
+                </div>
+              </div><!--section3-bootom-->          
+		  </div><!--section3-->
+		  
+		  <div id="section4" class="section4">         
+				<div class="section4-top" >
+                	<img class="pagefour-top-img img-responsive" src="img/page4/pic2.png" />
+                	<div class="pagefour-top-tol">
+						<dl class="pagefour-top-dl col-lg-3 col-md-6 col-sm-6 col-xs-12">
+							<dd class="pagefour-top-dd">
+								<img src="img/page4/youcai.png"/>
+							</dd>
+							<dt class="pagefour-top-dt">
+								悠彩互动
+							</dt>
+						</dl>
+						<dl class="pagefour-top-dl col-lg-3 col-md-6 col-sm-6 col-xs-12">
+							<dd class="pagefour-top-dd">
+								<img src="img/page4/v5.png"/>
+							</dd>
+							<dt class="pagefour-top-dt">
+								V5客服
+							</dt>
+						</dl>
+						<dl class="pagefour-top-dl col-lg-3 col-md-6 col-sm-6 col-xs-12">
+							<dd class="pagefour-top-dd">
+								<img src="img/page4/yintai.png"/>
+							</dd>
+							<dt class="pagefour-top-dt">
+								银泰网
+							</dt>
+						</dl>
+						<dl class="pagefour-top-dl col-lg-3 col-md-6 col-sm-6 col-xs-12">
+							<dd class="pagefour-top-dd">
+								<img src="img/page4/yongyida.png"/>
+							</dd>
+							<dt class="pagefour-top-dt">
+								勇义达机器人
+							</dt>
+						</dl>
+					</div><!--pagefour-top-tol-->
+					<div class="clean"></div>
+		    </div><!---->
+				<!--section4-top-->
+				<div class="pagefour-bottom  col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<img class="pagefour-bottom-img" src="img/page4/pic3.png"/>
+					<div class="pagefour-bottom-div">
+						<div class="pagefour-bottom-li col-lg-4 col-md-12 col-sm-12 col-xs-12">					
+							<span class="glyphicon glyphicon-earphone"></span><p class="pagefour-bottom-p">86538053</p>
+						</div>
+						<div class="pagefour-bottom-li col-lg-4 col-md-12 col-sm-12 col-xs-12">					
+							<span class="glyphicon glyphicon-envelope"></span><p class="pagefour-bottom-p1">hellow@iknow.ai</p>
+						</div>
+						<div class="pagefour-bottom-li col-lg-4 col-md-12 col-sm-12 col-xs-12">					
+							 <span class="glyphicon glyphicon-user"></span><p class="pagefour-bottom-p">34038644414</p>
+						</div>
+					</div>
+					<div class="address">
+						<span class="glyphicon glyphicon-map-marker pagethree-bottom-addr"></span>
+						<p class="pagefour-bottom-address">深圳市南山区科技南12路曙光大厦801</p>
+					</div>
+					<!--/*<div class="section4-group col-lg-4 col-lg-offset-4 col-md-4  col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-12">
+						<div class="input-group ">
+							<input type="text" class="form-control text" placeholder="想了解更多？" >
+								<span class="input-group-btn">
+									<button class="send1 btn " type="button" >
+										发送
+									</button>
+								</span>
+						</div><!-- /input-group -->
+				   </div><!-- /.col-lg-6 -->	
+				</div> <!--"pagefour-bottom-->
+		  </div>  <!--section4-->    
+     
+    </div><!--content-->
+  </div><!--row-->                                                                                 
+</div><!--container-->
+
+</body>
+
+	
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+	
+	 <!-- fullPage Core JavaScript -->
+	<script src="js/fullPage.min.js"></script>
+	
+	<!--javascript-->
+	<script src="js/homepage.js"></script>
+
+	<script src="js/jQuery-2.2.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/angular.min.js"></script>
+	<script src="js/typeahead.js"></script>
+	<script src="js/index.js"></script>
+</html>                                      
